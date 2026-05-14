@@ -1,0 +1,36 @@
+node_modules
+.env
+
+# Hardhat files
+/cache
+/artifacts
+
+# TypeChain files
+/typechain
+/typechain-types
+
+# solidity-coverage files
+/coverage
+/coverage.json
+
+# Hardhat Ignition default folder for deployments against a local node
+ignition/deployments
+
+# Snapshot files
+*.snap
+
+# Network-specific deployment scripts and parameters with hardcoded addresses
+# (kept locally, not published)
+scripts/interact-baseSepolia.ts
+scripts/test-tokens.json
+scripts/verify-etherscan-v2.ts
+ignition/modules/Router.ts
+ignition/modules/QuoterV2.ts
+ignition/modules/PositionManager.ts
+ignition/parameters/baseSepolia.json
+
+# Gas reporter output
+gas-report.txt
+
+# Catch any stray Hardhat artifact directories (filename.sol/ pattern)
+**/*.sol/
