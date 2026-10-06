@@ -5,10 +5,10 @@ text below applies to Fusang-authored code. Upstream and third-party files retai
 original licences, declared via per-file `SPDX-License-Identifier` headers as the
 canonical declaration for each file:
 
-- **BUSL-1.1** — Uniswap V3 core libraries (`NoDelegateCall.sol`, `SwapMath.sol`,
+- **GPL-2.0-or-later** — Uniswap V3 core libraries (`NoDelegateCall.sol`, `SwapMath.sol`,
   `Position.sol`, `SqrtPriceMath.sol`, `Oracle.sol`, `Tick.sol`, `TickBitmap.sol`).
-  These files automatically converted to GPL-2.0-or-later on the upstream Change Date
-  of 1 April 2023, per the terms of BUSL-1.1.
+  These files derive from Uniswap v3-core, whose BUSL-1.1 licence converted to
+  GPL-2.0-or-later on the upstream Change Date of 1 April 2023.
 - **MIT** — third-party utilities such as `FullMath.sol`.
 - **GPL-3.0-or-later** — libraries such as `AddressStringUtil.sol`.
 

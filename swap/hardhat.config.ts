@@ -74,7 +74,7 @@ const config: HardhatUserConfig = {
     hardhat: {
       allowUnlimitedContractSize: false,
     },
-    fusang: {
+    local: {
       url: "http://localhost:8545",
       accounts: {
         mnemonic: MNEMONIC || "",

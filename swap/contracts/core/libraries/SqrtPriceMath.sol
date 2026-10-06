@@ -1,4 +1,5 @@
-// SPDX-License-Identifier: BUSL-1.1
+// SPDX-License-Identifier: GPL-2.0-or-later
+// Derived from Uniswap v3-core (BUSL-1.1, converted to GPL-2.0-or-later on 2023-04-01); modified by Fusang.
 pragma solidity ^0.8.0;
 
 import {SafeCast} from './SafeCast.sol';
